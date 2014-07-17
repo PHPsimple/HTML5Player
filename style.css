@@ -1,0 +1,71 @@
+.player-container {
+    width: 350px;
+    height: auto;
+    border: 1px solid black;
+    margin: 30px;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.player {
+    color: black;
+}
+
+.controls {
+    border: 1px solid black;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.hide {
+	display: none;
+}
+
+.status {
+	width: 266px;
+	margin: 5px;
+	overflow: hidden;
+}
+
+    /*Google Chrome and Safari style*/
+.seek {
+    -webkit-appearance: none;
+}
+.seek::-webkit-slider-runnable-track {
+    width: 266px;
+    border-radius: 10px;
+    background: #ddd;
+    border: none;
+}
+.seek::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: black;
+}
+.seek:focus {
+    outline: none;
+}
+.seek:focus::-webkit-slider-runnable-track {
+    outline: none;
+}
+
+    /*Mozilla Firefox style*/
+.seek::-moz-range-track {
+    width: 266px;
+    border-radius: 10px;
+    background: #ddd;
+    border: none;
+    height: 18px;
+}
+.seek::-moz-range-thumb {
+    border: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: black;
+}
